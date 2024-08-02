@@ -1,11 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <title>İshAxthar</title>
 </head>
+
+
 <body>
-     
+     <nav class="navbar">
+          <div class="container">
+               <div class="nav__content flex__space-between">
+                    <div class="nav__logo">
+                         <h1>LOGO</h1>
+                    </div>
+                    <ul class="nav__list flex__center">
+                         <li class="nav__item"><a href="#" class="nav__link">Vakansiyalar</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Şirkətlər</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Sturtuplar</a></li>
+
+                         <li class="nav__item"><a href="#" class="nav__link">Freelance işlər</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Haqqımızda</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Əlaqə</a></li>
+                    </ul class="nav__list">
+                    <div class="nav__profil flex__center">
+                         <div class="nav__profil-content flex__center">
+                              <a href="#" class="nav__profil-vacant"><span><i
+                                             class="fa-solid fa-plus"></i></span>Vakansiya yarat</a>
+                              <a href="#" class="nav__profil-user"><span><i class="fa-regular fa-user"></i></span></a>
+                         </div>
+                         <div class="nav__menu d__none">
+                              <span><i class="fa-solid fa-bars"></i></span>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </nav>
+     <main style="margin-top: 10%;">
+          <div class="container">
+               <div class="main__content-title">
+                    <div class="main__content-filter flex__center">
+                         <h1 class="main__content-heading">Vakansiya | İş elanları</h1>
+                         <input type="text" class="main__content-search" placeholder="Vakansiya axtar">
+                         <div class="icon-container">
+                              <label for="toggles">
+                                   <i class="fa-solid fa-filter"></i>
+                              </label>
+                              <input type="checkbox" id="toggles">
+                         </div>
+                    </div>
+                    <div class="main__content-form">
+                         <form action="">
+                              <label for="">
+                                   <p>Keyword or Title</p>
+                                   <input type="text" placeholder="Search by keyword">
+                                   <i class="fa-solid fa-magnifying-glass"></i>
+                              </label>
+                              <label for="">
+                                   <p>Category</p>
+                                   <input type="text" placeholder="Web design">
+                                   <i class="fa-solid fa-caret-up"></i>
+                                   <ul>
+                                        <li>Web design</li>
+                                        <li>Web design</li>
+                                        <li>Web design</li>
+                                   </ul>
+                              </label>
+                              <label for="">
+                                   <p>Location</p>
+                                   <input type="text" placeholder="Baki">
+                                   <i class="fa-solid fa-caret-up"></i>
+                                   <ul>
+                                        <li>Baki</li>
+                                        <li>Gence</li>
+                                        <li>Goranboy</li>
+                                   </ul>
+                              </label>
+                              <label for="">
+                                   <p>English Fluency</p>
+                                   <input type="text" placeholder="Basic">
+                                   <i class="fa-solid fa-caret-up"></i>
+                                   <ul>
+                                        <li>Basic</li>
+                                        <li>Conversational</li>
+                                        <li>Fluient</li>
+                                        <li>Native</li>
+                                   </ul>
+                              </label>
+                              <div for="" class="form-checbox">
+                                   <p>Job type:</p>
+                                   <ul>
+                                        <label><input type="checkbox">Fulltime</label>
+                                        <label><input type="checkbox">Hourly-Contract</label>
+                                        <label><input type="checkbox">Part-time</label>
+                                        <label><input type="checkbox">Fixed-Price</label>
+                                   </ul>
+                              </div>
+                              <div for="mycheck" class="form-checbox">
+                                   <p>Experience Level:</p>
+                                   <ul>
+                                        <label><input type="checkbox">Beginner(1-3 yrs)</label>
+                                        <label><input type="checkbox">Intermediate(1-5 yrs)</label>
+                                        <label><input type="checkbox">Expert(1-10 yrs)</label>
+                                        <label><input type="checkbox">Internship</label>
+                                   </ul>
+                              </div>
+                              <div for="" class="form-checbox">
+                                   <p>Salary Range:</p>
+                                   <ul>
+                                        <label><input type="checkbox">350</label>
+                                        <label><input type="checkbox">700</label>
+                                        <label><input type="checkbox">100+</label>
+                                        <label><input type="checkbox">Internship</label>
+                                   </ul>
+                              </div>
+                         </form>
+                    </div>
+
+                    <div class="filter__btn flex__center">
+                         <a href="#">Apply Filter</a>
+                    </div>
+
+               </div>
+
+               <section class="section__card">
+                    <div class="section__card-title flex__space-between">
+                         <div class="section__card-title-number">
+                              <p class="section__card-title-text">Saytda olan <span class="color-number">8,400</span>
+                                   vakansiya</p>
+                         </div>
+                         <div class="section__card-title-sort flex__center">
+                              <p>Short: </p>
+                              <div class="filter__content-sort">
+                                   <div class="filter__content-sort-header flex__space-between">
+                                        <p>Premium</p>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                   </div>
+                                   <div class="filter__content-sort-content d-none">
+                                        <p class="filter-active">Premium</p>
+                                        <p>Yüksək maaş</p>
+                                        <p>Startuplar</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+
+               <section class="section__card">
+                    <ul class="section__card-list">
+                         <li class="section__card-item">
+                              <div class="section__card-content flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-img flex__center">
+                                             <span class="section__card-icon"><i
+                                                       class="fa-solid fa-briefcase"></i></span>
+                                             <h3 class="card__work-name">Developer & Expert in java c++</h3>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-main-time">
+                                        <p class="section__card-main-time-title">Full time</p>
+                                        <p class="section__card-main-time-salary">$22k-$30k <span>/year. Expert</span>
+                                        </p>
+                                   </div>
+                                   <div class="section__card-main-location">
+                                        <p class="section__card-main-location-title">Spain, Barcelona</p>
+                                        <div class="flex__center section__card-main-location-text">
+                                             <h4>Developer,</h4>
+                                             <h4>Coder,</h4>
+                                             <h4>Design</h4>
+                                        </div>
+                                   </div>
+                                   <div class="section__card-main-apply">
+                                        <a href="#" class="section__card-main-share"><i
+                                                  class="fa-solid fa-share"></i></a>
+                                        <a href="#" class="section__card-main-btn">Apply</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li class="section__card-item">
+                              <div class="section__card-content flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-img flex__center">
+                                             <span class="section__card-icon"><i
+                                                       class="fa-solid fa-briefcase"></i></span>
+                                             <h3 class="card__work-name">Developer & Expert in java c++</h3>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-main-time">
+                                        <p class="section__card-main-time-title">Full time</p>
+                                        <p class="section__card-main-time-salary">$22k-$30k <span>/year. Expert</span>
+                                        </p>
+                                   </div>
+                                   <div class="section__card-main-location">
+                                        <p class="section__card-main-location-title">Spain, Barcelona</p>
+                                        <div class="flex__center section__card-main-location-text">
+                                             <h4>Developer,</h4>
+                                             <h4>Coder,</h4>
+                                             <h4>Design</h4>
+                                        </div>
+                                   </div>
+                                   <div class="section__card-main-apply">
+                                        <a href="#" class="section__card-main-share"><i
+                                                  class="fa-solid fa-share"></i></a>
+                                        <a href="#" class="section__card-main-btn">Apply</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li class="section__card-item">
+                              <div class="section__card-content flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-img flex__center">
+                                             <span class="section__card-icon"><i
+                                                       class="fa-solid fa-briefcase"></i></span>
+                                             <h3 class="card__work-name">Developer & Expert in java c++</h3>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-main-time">
+                                        <p class="section__card-main-time-title">Full time</p>
+                                        <p class="section__card-main-time-salary">$22k-$30k <span>/year. Expert</span>
+                                        </p>
+                                   </div>
+                                   <div class="section__card-main-location">
+                                        <p class="section__card-main-location-title">Spain, Barcelona</p>
+                                        <div class="flex__center section__card-main-location-text">
+                                             <h4>Developer,</h4>
+                                             <h4>Coder,</h4>
+                                             <h4>Design</h4>
+                                        </div>
+                                   </div>
+                                   <div class="section__card-main-apply">
+                                        <a href="#" class="section__card-main-share"><i
+                                                  class="fa-solid fa-share"></i></a>
+                                        <a href="#" class="section__card-main-btn">Apply</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li class="section__card-item">
+                              <div class="section__card-content flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-img flex__center">
+                                             <span class="section__card-icon"><i
+                                                       class="fa-solid fa-briefcase"></i></span>
+                                             <h3 class="card__work-name">Developer & Expert in java c++</h3>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-main-time">
+                                        <p class="section__card-main-time-title">Full time</p>
+                                        <p class="section__card-main-time-salary">$22k-$30k <span>/year. Expert</span>
+                                        </p>
+                                   </div>
+                                   <div class="section__card-main-location">
+                                        <p class="section__card-main-location-title">Spain, Barcelona</p>
+                                        <div class="flex__center section__card-main-location-text">
+                                             <h4>Developer,</h4>
+                                             <h4>Coder,</h4>
+                                             <h4>Design</h4>
+                                        </div>
+                                   </div>
+                                   <div class="section__card-main-apply">
+                                        <a href="#" class="section__card-main-share"><i
+                                                  class="fa-solid fa-share"></i></a>
+                                        <a href="#" class="section__card-main-btn">Apply</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li class="section__card-item">
+                              <div class="section__card-content flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-img flex__center">
+                                             <span class="section__card-icon"><i
+                                                       class="fa-solid fa-briefcase"></i></span>
+                                             <h3 class="card__work-name">Developer & Expert in java c++</h3>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-main-time">
+                                        <p class="section__card-main-time-title">Full time</p>
+                                        <p class="section__card-main-time-salary">$22k-$30k <span>/year. Expert</span>
+                                        </p>
+                                   </div>
+                                   <div class="section__card-main-location">
+                                        <p class="section__card-main-location-title">Spain, Barcelona</p>
+                                        <div class="flex__center section__card-main-location-text">
+                                             <h4>Developer,</h4>
+                                             <h4>Coder,</h4>
+                                             <h4>Design</h4>
+                                        </div>
+                                   </div>
+                                   <div class="section__card-main-apply">
+                                        <a href="#" class="section__card-main-share"><i
+                                                  class="fa-solid fa-share"></i></a>
+                                        <a href="#" class="section__card-main-btn">Apply</a>
+                                   </div>
+                              </div>
+                         </li>
+                         <li class="section__card-item">
+                              <div class="section__card-content flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-img flex__center">
+                                             <span class="section__card-icon"><i
+                                                       class="fa-solid fa-briefcase"></i></span>
+                                             <h3 class="card__work-name">Developer & Expert in java c++</h3>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-main-time">
+                                        <p class="section__card-main-time-title">Full time</p>
+                                        <p class="section__card-main-time-salary">$22k-$30k <span>/year. Expert</span>
+                                        </p>
+                                   </div>
+                                   <div class="section__card-main-location">
+                                        <p class="section__card-main-location-title">Spain, Barcelona</p>
+                                        <div class="flex__center section__card-main-location-text">
+                                             <h4>Developer,</h4>
+                                             <h4>Coder,</h4>
+                                             <h4>Design</h4>
+                                        </div>
+                                   </div>
+                                   <div class="section__card-main-apply">
+                                        <a href="#" class="section__card-main-share"><i
+                                                  class="fa-solid fa-share"></i></a>
+                                        <a href="#" class="section__card-main-btn">Apply</a>
+                                   </div>
+                              </div>
+                         </li>
+                    </ul>
+               </section>
+          </div>
+     </main>
+
+     <footer style="background-color: #000; margin-top: 20%;">
+          <div class="container">
+               <div class="footer__content-header">
+                    <div class="footer__list-col">
+                         <h4>Namizədlər üçün</h4>
+                         <ul class="footer__list">
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş elanları</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş kateqoriyaları</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="footer__list-col">
+                         <h4>İşəgötürənlər üçün</h4>
+                         <ul class="footer__list">
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İşçini necə
+                                        tapmalı?</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Qiymətlər</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Headhunting</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İşaxtaranlar</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                         </ul>
+                    </div>
+                    <div class="footer__list-col">
+                         <h4>Namizədlər üçün</h4>
+                         <ul class="footer__list">
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş elanları</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş kateqoriyaları</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+
 </body>
+
 </html>

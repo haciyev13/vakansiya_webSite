@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <title>Vakansiya</title>
+</head>
+
+<body>
+     <nav class="navbar">
+          <div class="container">
+               <div class="nav__content flex__space-between">
+                    <div class="nav__logo">
+                         <h1>LOGO</h1>
+                    </div>
+                    <ul class="nav__list flex__center">
+                         <li class="nav__item"><a href="#" class="nav__link">Vakansiyalar</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Şirkətlər</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Kurslar</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Sturtuplar</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Seminar</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">İş axtaranlar</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Freelance işlər</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Haqqımızda</a></li>
+                         <li class="nav__item"><a href="#" class="nav__link">Əlaqə</a></li>
+                    </ul class="nav__list">
+                    <div class="nav__profil flex__center">
+                         <div class="nav__profil-content flex__center">
+                              <a href="#" class="nav__profil-vacant"><span><i
+                                             class="fa-solid fa-plus"></i></span>Vakansiya yarat</a>
+                              <a href="#" class="nav__profil-user"><span><i class="fa-regular fa-user"></i></span></a>
+                         </div>
+                         <div class="nav__menu d__none">
+                              <span><i class="fa-solid fa-bars"></i></span>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </nav>
+
+
+     <main class="main__filter">
+          <div class="container">
+               <div class="main__content-filtir">
+                    <div class="filter__content-input">
+
+                         <div class="filter__input-categories">
+                              <div class="filter__categories-header">
+                                   <p class="filter_categories-text">İxtisas</p>
+                                   <input type="text" class="main__content-search" placeholder="İxtisas axtar">
+                              </div>
+                              <form action="" class="filter_form">
+                                   <label for="labelRadio11" class="label label_active">
+                                        <input type="radio" name="radio" id="labelRadio11" class="radio__input">
+                                        <div class="radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        Digital marketing
+                                   </label>
+                                   <label for="labelRadio13" class="label">
+                                        <input type="radio" name="radio" id="labelRadio13" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        Hüquqşunas
+                                   </label>
+                                   <label for="labelRadio14" class="label">
+                                        <input type="radio" name="radio" id="labelRadio14" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        Təhlükəsizlik
+                                   </label>
+                                   <label for="labelRadio15" class="label">
+                                        <input type="radio" name="radio" id="labelRadio15" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        Tibbi sığorta mütəxəssisi
+                                   </label>
+                              </form>
+                         </div>
+
+
+                         <div class="filter__input-categories">
+                              <div class="filter__categories-header">
+                                   <p class="filter_categories-text">Təhsil</p>
+                              </div>
+                              <form action="" class="filter_form">
+                                   <label for="labelRadio" class="label label_active">
+                                        <input type="radio" name="radio" id="labelRadio" class="radio__input">
+                                        <div class="radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Ali</span>
+                                   </label>
+                                   <label for="labelRadio2" class="label">
+                                        <input type="radio" name="radio" id="labelRadio2" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span class="demo">Orta</span>
+                                   </label>
+                                   <label for="labelRadio3" class="label">
+                                        <input type="radio" name="radio" id="labelRadio3" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span class="demo">Peşə</span>
+                                   </label>
+                                   <!-- <label for="labelRadio3" class="label">
+                                        <input type="radio" name="radio" id="labelRadio3" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Biographies & Memory</span>
+                                   </label>
+                                   <label for="labelRadio4" class="label">
+                                        <input type="radio" name="radio" id="labelRadio4" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Children’s Book</span>
+                                   </label>
+                                   <label for="labelRadio5" class="label">
+                                        <input type="radio" name="radio" id="labelRadio5" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Cookbook & Food</span>
+                                   </label>
+                                   <label for="labelRadio6" class="label">
+                                        <input type="radio" name="radio" id="labelRadio6" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>History</span>
+                                   </label>
+                                   <label for="labelRadio7" class="label">
+                                        <input type="radio" name="radio" id="labelRadio7" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Literature & Fiction</span>
+                                   </label>
+                                   <label for="labelRadio8" class="label">
+                                        <input type="radio" name="radio" id="labelRadio8" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Romance</span>
+                                   </label>
+                                   <label for="labelRadio9" class="label">
+                                        <input type="radio" name="radio" id="labelRadio9" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Sicfi & Fantasy</span>
+                                   </label>
+                                   <label for="labelRadio10" class="label">
+                                        <input type="radio" name="radio" id="labelRadio10" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        <span>Teen & Young Adult</span>
+                                   </label> -->
+                              </form>
+                              <!-- <div class="load_more">
+                                   <p>+ <a href="#">Load more</a></p>
+                              </div> -->
+                         </div>
+
+
+                         <div class="filter__input-categories">
+                              <div class="filter__categories-header">
+                                   <p class="filter_categories-text">Dil bilikləri</p>
+                              </div>
+                              <form action="" class="filter_form">
+                                   <label for="labelRadio16" class="label label_active">
+                                        <input type="radio" name="radio" id="labelRadio16" class="radio__input">
+                                        <div class="radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        Azərbaycan dili
+                                   </label>
+                                   <label for="labelRadio17" class="label">
+                                        <input type="radio" name="radio" id="labelRadio17" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        İngilis dili
+                                   </label>
+                                   <label for="labelRadio18" class="label">
+                                        <input type="radio" name="radio" id="labelRadio18" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        Alman dili
+                                   </label>
+                                   <label for="labelRadio19" class="label">
+                                        <input type="radio" name="radio" id="labelRadio19" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        Türk dili
+                                   </label>
+
+                              </form>
+                         </div>
+
+                         <div class="filter__input-categories">
+                              <div class="filter__categories-header">
+                                   <p class="filter_categories-text">Maaş aralığı</p>
+                              </div>
+                              <form action="" class="filter_form">
+                                   <label for="labelRadio23" class="label label_active">
+                                        <input type="radio" name="radio" id="labelRadio23" class="radio__input">
+                                        <div class="radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        350-600
+                                   </label>
+                                   <label for="labelRadio20" class="label">
+                                        <input type="radio" name="radio" id="labelRadio20" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        600-800
+                                   </label>
+                                   <label for="labelRadio21" class="label">
+                                        <input type="radio" name="radio" id="labelRadio21" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        1000-1500
+                                   </label>
+                                   <label for="labelRadio22" class="label">
+                                        <input type="radio" name="radio" id="labelRadio22" class="radio__input">
+                                        <div class=" radio__radio"></div>
+                                        <div class="bg_delete"></div>
+                                        1500+
+                                   </label>
+                              </form>
+                         </div>
+                    </div>
+                    <section class="section__card section__card-filter">
+                         <ul class="section__card-list flex__center">
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                              <li class="section__card-item flex__space-between">
+                                   <a href="#" class="section__card-link">
+                                        <div class="section__card-content">
+                                             <div class="section__card-img">
+                                                  <span><i class="fa-solid fa-briefcase"></i></span>
+                                             </div>
+                                             <div class="section__card-main">
+                                                  <h3>Frontend developer</h3>
+                                                  <ul class="section__card-main-list flex__center">
+                                                       <li class="section__card-main-item"><span><i
+                                                                      class="fa-solid fa-building"></i></span>Onegroup
+                                                            LLC
+                                                       </li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-info"></i>İT
+                                                            developer</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-solid fa-location-dot"></i>Bakı</li>
+                                                       <li class="section__card-main-item"><i
+                                                                 class="fa-regular fa-clock"></i>Dünən</li>
+                                                  </ul>
+                                             </div>
+                                        </div>
+                                   </a>
+                                   <div class="section__card-info">
+                                        <a href="#">
+                                             <span class="link-text">Ətraflı</span>
+                                             <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                   </div>
+                              </li>
+                         </ul>
+                    </section>
+               </div>
+
+          </div>
+     </main>
+
+
+
+     <footer style="background-color: #000; margin-top: 50%;">
+          <div class="container">
+               <div class="footer__content-header">
+                    <div class="footer__list-col">
+                         <h4>Namizədlər üçün</h4>
+                         <ul class="footer__list">
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş elanları</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş kateqoriyaları</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="footer__list-col">
+                         <h4>İşəgötürənlər üçün</h4>
+                         <ul class="footer__list">
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İşçini necə
+                                        tapmalı?</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Qiymətlər</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Headhunting</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İşaxtaranlar</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                         </ul>
+                    </div>
+                    <div class="footer__list-col">
+                         <h4>Namizədlər üçün</h4>
+                         <ul class="footer__list">
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş elanları</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">İş kateqoriyaları</a>
+                              </li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Şirkətlərin
+                                        siyahısı</a></li>
+                              <li class="footer__list-item"><a href="#" class="footer__list-link">Ətraflı axtarış</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+
+
+</body>
+
+</html>
