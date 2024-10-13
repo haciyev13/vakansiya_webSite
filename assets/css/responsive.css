@@ -1,0 +1,185 @@
+@media (max-width: 768px) {
+     .nav__list {
+          display: none;
+     }
+
+     .nav__menu {
+          display: block;
+     }
+}
+
+@media only screen and (max-width:768px) {
+
+     /*? Navbar  */
+     .nav__list {
+          display: none;
+     }
+
+     .nav__menu {
+          display: block;
+          font-size: 24px;
+          color: #666;
+          margin-left: 10px;
+     }
+
+     .nav__profil-content .section__card-main-share .fa-bookmark {
+          /* display: none; */
+     }
+
+     /*? Filter  */
+
+     .main__content-form form>label {
+          margin: 20px 0;
+          width: 235px;
+     }
+
+     .main__content-form form>label>input {
+          width: 235px;
+     }
+
+     .main__content-form form>label>i {
+          position: absolute;
+          left: 210px;
+          top: 54px;
+     }
+
+     .main__content-form form>.form-checbox {
+          display: block;
+          width: 200px;
+     }
+
+     .main__content-form form>.form-checbox>ul {
+          margin-top: 30px;
+     }
+
+     /*? section-card */
+     .card__work-name {
+          font-size: 18px;
+     }
+
+     .section__card-main-time-title {
+          font-size: 15px;
+     }
+
+     .section__card-main-time-salary {
+          font-size: 14px;
+     }
+
+     .section__card-main-location-title {
+          font-size: 15px;
+     }
+
+     .section__card-main-location-text {
+          font-size: 14px;
+     }
+
+     .section__card-main-btn {
+          padding: 8px 18px;
+          font-size: 13px;
+     }
+
+     .section__card-title-text {
+          font-size: 15px;
+     }
+
+     .section__card-content {
+          flex-direction: column;
+          align-items: flex-start;
+          width: 100%;
+          gap: 20px;
+     }
+
+     .section__card-img {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+     }
+
+     .company__heading {
+          font-size: 37px;
+     }
+
+     .main__content-title {
+          flex-direction: column;
+          gap: 20px;
+     }
+
+     .section__card-item-company {
+          width: 100%;
+     }
+}
+
+@media only screen and (max-width:992px) {
+
+     /*? Navbar  */
+     .nav__list {
+          display: none;
+     }
+
+     .nav__menu {
+          display: block;
+          font-size: 24px;
+          color: #666;
+          margin-left: 10px;
+     }
+
+     .fa-bookmark {
+          display: none;
+     }
+
+     /*? Filter  */
+
+     .main__content-form form>label {
+          margin: 20px 0;
+          width: 235px;
+     }
+
+     .main__content-form form>label>input {
+          width: 235px;
+     }
+
+     .main__content-form form>label>i {
+          position: absolute;
+          left: 210px;
+          top: 54px;
+     }
+
+     .main__content-form form>.form-checbox {
+          display: block;
+          width: 200px;
+     }
+
+     .main__content-form form>.form-checbox>ul {
+          margin-top: 30px;
+     }
+
+     /*? section-card */
+     .card__work-name {
+          font-size: 18px;
+     }
+
+     .section__card-main-time-title {
+          font-size: 15px;
+     }
+
+     .section__card-main-time-salary {
+          font-size: 14px;
+     }
+
+     .section__card-main-location-title {
+          font-size: 15px;
+     }
+
+     .section__card-main-location-text {
+          font-size: 14px;
+     }
+
+     .section__card-main-btn {
+          padding: 8px 18px;
+          font-size: 13px;
+     }
+
+     .section__card-title-text {
+          font-size: 15px;
+     }
+}
