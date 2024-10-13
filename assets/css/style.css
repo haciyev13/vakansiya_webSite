@@ -626,7 +626,12 @@ input {
      border-radius: 50%;
      color: #fff;
 }
-
+.category-container {
+     display: flex;
+     gap: 20px;
+     padding: 40px 20px;
+     flex-wrap: wrap;
+}
 .category-container>.slick-next.slick-arrow {
      background-color: #939191;
      padding: 18px;
@@ -731,12 +736,7 @@ input {
      margin-top: 70px;
 }
 
-.category-container {
-     display: flex;
-     gap: 20px;
-     padding: 40px 20px;
-     flex-wrap: wrap;
-}
+
 
 .category-card {
      background-color: #fff;

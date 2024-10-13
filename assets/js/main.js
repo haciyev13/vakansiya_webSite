@@ -8,7 +8,7 @@ let slider = document.querySelector(".section__card-list-slider");
 let main__content_UL = document.querySelectorAll(".main__content-form>form>label>ul")
 
 
-main__content_UL.forEach(item=>{
+main__content_UL.forEach(item => {
      item.classList.add("d__none");
 })
 
@@ -38,4 +38,13 @@ $('.section__card-list-slider').slick({
 $('.category-container').slick({
      slidesToShow: 5,
      slidesToScroll: 1,
+     responsive: [
+          {
+               breakpoint: 666,
+               settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+               }
+          }
+     ]
 });
