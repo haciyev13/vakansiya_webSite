@@ -34,6 +34,15 @@ icon.addEventListener("click", function (e) {
 $('.section__card-list-slider').slick({
      slidesToShow: 5,
      slidesToScroll: 1,
+     responsive: [
+          {
+               breakpoint: 666,
+               settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+               }
+          }
+     ]
 });
 $('.category-container').slick({
      slidesToShow: 5,
