@@ -1,6 +1,126 @@
-@media (max-width: 768px) {
+@media only screen and (max-width: 666px) {
+     .main__content-filter.flex__center {
+          flex-direction: column;
+     }
+
+     .main__content-filter.flex__center>.main__content-heading {
+          font-size: 24px;
+     }
+
+     .footer__content-header {
+          flex-direction: column;
+          gap: 60px;
+     }
+
+     main#about__main {
+          margin-top: 20%;
+     }
+
+     .main__content-search {
+          padding: 0;
+     }
+
+     .main__content-search>.main__content-search-input {
+          width: 300px;
+     }
+
+     .main__details-jobseeker-details {
+          flex-direction: column;
+          gap: 30px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+     .main__details-company-details {
+          padding: 10px;
+          gap: 20px;
+     }
+
+     .company__details-img {
+          padding: 10px;
+          font-size: 30px;
+     }
+
+     .main__details-jobseeker-details {
+          padding: 50px;
+     }
+
+     .company__details-description>h1 {
+          font-size: 20px;
+     }
+
+     .company__details-description>p {
+          font-size: 14px;
+     }
+
+     .main__details-content {
+          padding: 10px;
+     }
+
+     .job__seeker-content {
+          flex-direction: column;
+     }
+
+     .main__left,
+     .main__right {
+          width: 100%;
+     }
+
+     .work-details-item {
+          width: 100%;
+     }
+
+     .profile-info h3 {
+          font-size: 18px;
+     }
+
+     .profile-info p {
+          font-size: 14px;
+     }
+
+     .skills-list,
+     .education-list,
+     .language-list,
+     .experience-list {
+          padding-left: 10px;
+          font-size: 14px;
+     }
+
+     .user-info .info-item {
+          flex-direction: column;
+          align-items: flex-start;
+     }
+
+     .user-info .info-label,
+     .user-info .info-value {
+          font-size: 14px;
+     }
+
+     .cv-button a {
+          padding: 8px 16px;
+          font-size: 14px;
+     }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
      .nav__list {
           display: none;
+     }
+
+     .main__content-title {
+          margin-top: 20%;
      }
 
      .nav__menu {
@@ -24,6 +144,11 @@
 
      .nav__profil-content .section__card-main-share .fa-bookmark {
           /* display: none; */
+     }
+
+
+     .main__details-company-details {
+          padding-top: 80px;
      }
 
      /*? Filter  */
@@ -110,6 +235,181 @@
 }
 
 @media only screen and (max-width:992px) {
+     .main__details-jobseeker-details {
+          /* padding: 50px; */
+     }
+
+     .main__details-company-details {
+          padding: 30px;
+     }
+
+     .company__details-img {
+          padding: 20px;
+     }
+
+     .job__seeker-content {
+          flex-direction: column;
+     }
+
+     .main__left,
+     .main__right {
+          width: 100%;
+     }
+
+     .profile-info {
+          padding: 10px;
+     }
+
+     .skills-list,
+     .education-list,
+     .language-list,
+     .experience-list {
+          padding-left: 20px;
+     }
+
+     .work-details-item {
+          width: 80%;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     main {
+          margin-top: 24%;
+     }
+
+     .section__card-content.flex__space-between {
+          gap: 20px;
+     }
+
+     .section__card-main-apply {
+          display: flex;
+     }
+
+
+
+
+
+     .blog-layout {
+          flex-direction: column;
+     }
+
+     .blog__content .blog-card {
+          width: 48%;
+     }
+
+     .main__content-heading {
+          font-size: 2em;
+     }
+
+     .blog-layout {
+          flex-direction: column;
+     }
+
+     .small-card-content {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .large-blog-card,
+     .small-card {
+          flex: 1;
+     }
+
+     .blog__content .blog-card {
+          width: 100%;
+     }
+
+     .pagination {
+          text-align: center;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      /*? Navbar  */
      .nav__list {

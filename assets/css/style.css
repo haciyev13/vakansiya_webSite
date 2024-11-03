@@ -67,6 +67,10 @@ input {
      display: block;
 }
 
+main {
+     margin-top: 12%;
+}
+
 /*? Index Page */
 
 
@@ -626,12 +630,14 @@ input {
      border-radius: 50%;
      color: #fff;
 }
+
 .category-container {
      display: flex;
      gap: 20px;
      padding: 40px 20px;
      flex-wrap: wrap;
 }
+
 .category-container>.slick-next.slick-arrow {
      background-color: #939191;
      padding: 18px;
@@ -799,6 +805,32 @@ footer {
 .footer__list-link:hover {
      color: #fff;
 }
+
+.social-icons {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+}
+
+.social-icon {
+     color: #fff;
+     font-size: 24px;
+     text-decoration: none;
+}
+
+.copyright {
+     margin-top: 50px;
+     border-top: 2px solid #a7a2a2;
+}
+
+.copyright-text {
+     padding-top: 11px;
+     color: #fff;
+     text-align: center;
+     font-size: 15px;
+}
+
 
 /*? Vakansiya Page  */
 
@@ -1011,12 +1043,13 @@ footer {
 
 /*? Vakansiya Details */
 
+
 .main__details-company-details {
      display: flex;
      align-items: center;
      background-color: #ede9e9;
      padding-left: 14%;
-     padding-top: 40px;
+     padding-top: 50px;
      gap: 40px;
      padding-bottom: 40px;
 }
@@ -1153,6 +1186,118 @@ footer {
      background-color: #666;
 }
 
+.company-info {
+     background-color: #f9f9f9;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     margin-top: 20px;
+}
+
+.company-info-header {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+}
+
+.company-logo {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+}
+
+.company-info-body p {
+     margin: 10px 0;
+     color: #555;
+     font-size: 14px;
+}
+
+.company-info-body i {
+     margin-right: 8px;
+     color: #3d9da5;
+}
+
+.work-details-parent {
+     display: flex;
+}
+
+
+.similar-jobs {
+     margin-top: 10%;
+}
+
+.similar-jobs h2 {
+     color: #333;
+     font-weight: 500;
+     margin-bottom: 20px;
+}
+
+.job-cards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     gap: 20px;
+}
+
+.job-card {
+     background-color: #fff;
+     border-radius: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     width: 250px;
+     text-align: center;
+}
+
+.job-card-header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     margin-bottom: 15px;
+}
+
+.job-logo {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+}
+
+.job-title {
+     font-size: 19px;
+     font-weight: 600;
+}
+
+.job-company {
+     color: #666;
+     margin-bottom: 10px;
+}
+
+.job-location,
+.job-salary {
+     font-size: 17px !important;
+     font-size: 14px;
+     color: #999;
+     margin-bottom: 10px;
+}
+
+.job-card-btn {
+     display: inline-block;
+     margin-top: 10px;
+     padding: 10px 15px;
+     background-color: #3d9da5;
+     color: #fff;
+     border-radius: 5px;
+     text-decoration: none;
+}
+
+.job-card-btn:hover {
+     background-color: #34989b;
+}
+
+
+
+
+
 /*? Company Details page */
 
 .section__card-item.company-detail-item {
@@ -1244,7 +1389,9 @@ footer {
 
 .profil__card-container {
      display: flex;
+     justify-content: center;
      flex-wrap: wrap;
+     margin-top: 30px;
 }
 
 .profil__card-item {

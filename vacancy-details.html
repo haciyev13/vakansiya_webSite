@@ -7,8 +7,16 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
           integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
+
      <link rel="stylesheet" href="./assets/css/style.css">
      <link rel="stylesheet" href="./assets/css/responsive.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+          integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+          integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
      <title>İshAxthar Details</title>
 </head>
 
@@ -55,7 +63,7 @@
      </nav>
 
 
-     <main class="main__details" style="margin-top: 6%;">
+     <main class="main__details">
           <div class="main__details-content">
                <div class="main__details-company-details">
                     <div class="company__details-img">
@@ -147,43 +155,81 @@
                                              class="fa-solid fa-arrow-right"></i></a>
                               </div>
                          </div>
-                         <div class="work__detail-side">
-                              <div class="work__detail-side-child">
-                                   <div class="side-child-div">
-                                        <p>Is tesviri</p>
-                                   </div>
-                                   <!-- <ul class="work__detail-content-list">
-                                        <li class="work__detail-content-item">Lorem ipsum dolor, sit amet consectetur
-                                             adipisicing
-                                             elit. Sint, nobis.</li>
-                                        <li class="work__detail-content-item">Commodi doloribus vitae excepturi nesciunt
-                                             porro cum
-                                             maxime ipsum quis!</li>
-                                        <li class="work__detail-content-item">Qui nihil repellendus eos rem accusantium
-                                             cumque
-                                             doloribus amet magnam.</li>
-                                        <li class="work__detail-content-item">Lorem ipsum dolor, sit amet consectetur
-                                             adipisicing
-                                             elit. Sint, nobis.</li>
-                                        <li class="work__detail-content-item">Commodi doloribus vitae excepturi nesciunt
-                                             porro cum
-                                             maxime ipsum quis!</li>
-                                        <li class="work__detail-content-item">Qui nihil repellendus eos rem accusantium
-                                             cumque
-                                             doloribus amet magnam.</li>
-                                        <li class="work__detail-content-item">Lorem ipsum dolor, sit amet consectetur
-                                             adipisicing
-                                             elit. Sint, nobis.</li>
-                                        <li class="work__detail-content-item">Commodi doloribus vitae excepturi nesciunt
-                                             porro cum
-                                             maxime ipsum quis!</li>
-                                        <li class="work__detail-content-item">Qui nihil repellendus eos rem accusantium
-                                             cumque
-                                             doloribus amet magnam.</li>
-                                   </ul> -->
+                         <div class="company-info">
+                              <div class="company-info-header">
+                                   <img src="company-logo.png" alt="Şirket Logosu" class="company-logo">
+                                   <h3>Şirket Adı: XYZ LLC</h3>
+                              </div>
+                              <div class="company-info-body">
+                                   <p><i class="fa-solid fa-phone"></i> Telefon: +994 55 555 5555</p>
+                                   <p><i class="fa-solid fa-envelope"></i> Email: info@xyzcompany.com</p>
+                                   <p><i class="fa-solid fa-map-marker-alt"></i> Adres: Bakı, Nizami 56</p>
+                                   <p><i class="fa-solid fa-globe"></i> Web: www.xyzcompany.com</p>
                               </div>
                          </div>
 
+                    </div>
+
+
+
+                    <div class="similar-jobs">
+                         <h2>Oxşar İş Elanları</h2>
+                         <div class="job-cards">
+                              <div class="job-card">
+                                   <div class="job-card-header">
+                                        <h3 class="job-title">Pazarlama Uzmanı</h3>
+                                   </div>
+                                   <p class="job-company">ABC Şirketi</p>
+                                   <p class="job-location"><i class="fa-solid fa-location-dot"></i> Bakı</p>
+                                   <p class="job-salary"><i class="fa-solid fa-euro-sign"></i> 600 AZN</p>
+                                   <a href="#" class="job-card-btn">Etraflı bax</a>
+                              </div>
+                              <div class="job-card">
+                                   <div class="job-card-header">
+                                        <h3 class="job-title">Pazarlama Uzmanı</h3>
+                                   </div>
+                                   <p class="job-company">ABC Şirketi</p>
+                                   <p class="job-location"><i class="fa-solid fa-location-dot"></i> Bakı</p>
+                                   <p class="job-salary"><i class="fa-solid fa-euro-sign"></i> 600 AZN</p>
+                                   <a href="#" class="job-card-btn">Etraflı bax</a>
+                              </div>
+                              <div class="job-card">
+                                   <div class="job-card-header">
+                                        <h3 class="job-title">Pazarlama Uzmanı</h3>
+                                   </div>
+                                   <p class="job-company">ABC Şirketi</p>
+                                   <p class="job-location"><i class="fa-solid fa-location-dot"></i> Bakı</p>
+                                   <p class="job-salary"><i class="fa-solid fa-euro-sign"></i> 600 AZN</p>
+                                   <a href="#" class="job-card-btn">Etraflı bax</a>
+                              </div>
+                              <div class="job-card">
+                                   <div class="job-card-header">
+                                        <h3 class="job-title">Sosyal Medya Yöneticisi</h3>
+                                   </div>
+                                   <p class="job-company">XYZ Ajansı</p>
+                                   <p class="job-location"><i class="fa-solid fa-location-dot"></i> Gence</p>
+                                   <p class="job-salary"><i class="fa-solid fa-euro-sign"></i> 700 AZN</p>
+                                   <a href="#" class="job-card-btn">Etraflı bax</a>
+                              </div>
+                              <div class="job-card">
+                                   <div class="job-card-header">
+                                        <h3 class="job-title">Web Geliştirici</h3>
+                                   </div>
+                                   <p class="job-company">MNO Teknoloji</p>
+                                   <p class="job-location"><i class="fa-solid fa-location-dot"></i> Sumqayıt</p>
+                                   <p class="job-salary"><i class="fa-solid fa-euro-sign"></i> 800 AZN</p>
+                                   <a href="#" class="job-card-btn">Etraflı bax</a>
+                              </div>
+                              <div class="job-card">
+                                   <div class="job-card-header">
+                                        <h3 class="job-title">Grafik Tasarımcı</h3>
+                                   </div>
+                                   <p class="job-company">QRS Tasarım</p>
+                                   <p class="job-location"><i class="fa-solid fa-location-dot"></i> Lankaran</p>
+                                   <p class="job-salary"><i class="fa-solid fa-euro-sign"></i> 650 AZN</p>
+                                   <a href="#" class="job-card-btn">Etraflı bax</a>
+                              </div>
+                         </div>
                     </div>
                </div>
           </div>
@@ -245,6 +291,16 @@
      </footer>
 
 
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+          integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
+          integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+          integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <script src="./assets/js/main.js"></script>
 </body>
 

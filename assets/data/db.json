@@ -1,0 +1,99 @@
+{
+  "vakansiya_data": [
+    {
+      "id": 1,
+      "images": "",
+      "card_name": "Developer & Expert in java c++",
+      "card_time": "Full time",
+      "card_salary": "$22k-$30k",
+      "card_month": "year. Expert",
+      "card_location": "Spain, Barcelona",
+      "card_info": [
+        {
+          "id": 1,
+          "info_one": "Developer",
+          "info_two": "Coder",
+          "info_third": "Design"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "images": "",
+      "card_name": "Developer & Expert in java c++",
+      "card_time": "Full time",
+      "card_salary": "$22k-$30k",
+      "card_month": "year. Expert",
+      "card_location": "Spain, Barcelona",
+      "card_info": ["Developer", "Coder", "Design"]
+    },
+    {
+      "id": 3,
+      "images": "",
+      "card_name": "Developer & Expert in java c++",
+      "card_time": "Full time",
+      "card_salary": "$22k-$30k",
+      "card_month": "year. Expert",
+      "card_location": "Spain, Barcelona",
+      "card_info": [
+        {
+          "id": 1,
+          "info_one": "Developer",
+          "info_two": "Coder",
+          "info_third": "Design"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "images": "",
+      "card_name": "Developer & Expert in java c++",
+      "card_time": "Full time",
+      "card_salary": "$22k-$30k",
+      "card_month": "year. Expert",
+      "card_location": "Spain, Barcelona",
+      "card_info": [
+        {
+          "id": 1,
+          "info_one": "Developer",
+          "info_two": "Coder",
+          "info_third": "Design"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "images": "",
+      "card_name": "Developer & Expert in java c++",
+      "card_time": "Full time",
+      "card_salary": "$22k-$30k",
+      "card_month": "year. Expert",
+      "card_location": "Spain, Barcelona",
+      "card_info": [
+        {
+          "id": 1,
+          "info_one": "Developer",
+          "info_two": "Coder",
+          "info_third": "Design"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "images": "",
+      "card_name": "Developer & Expert in java c++",
+      "card_time": "Full time",
+      "card_salary": "$22k-$30k",
+      "card_month": "year. Expert",
+      "card_location": "Spain, Barcelona",
+      "card_info": [
+        {
+          "id": 1,
+          "info_one": "Developer",
+          "info_two": "Coder",
+          "info_third": "Design"
+        }
+      ]
+    }
+  ]
+}
