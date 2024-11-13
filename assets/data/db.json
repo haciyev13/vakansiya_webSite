@@ -5,95 +5,125 @@
       "images": "",
       "card_name": "Developer & Expert in java c++",
       "card_time": "Full time",
-      "card_salary": "$22k-$30k",
-      "card_month": "year. Expert",
-      "card_location": "Spain, Barcelona",
-      "card_info": [
-        {
-          "id": 1,
-          "info_one": "Developer",
-          "info_two": "Coder",
-          "info_third": "Design"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "images": "",
-      "card_name": "Developer & Expert in java c++",
-      "card_time": "Full time",
-      "card_salary": "$22k-$30k",
+      "card_salary": "$22k-$30k/",
       "card_month": "year. Expert",
       "card_location": "Spain, Barcelona",
       "card_info": ["Developer", "Coder", "Design"]
     },
     {
+      "id": 2,
+      "images": "",
+      "card_name": "Kapital Bank (Kassir)",
+      "card_time": "Full time",
+      "card_salary": "$22k-$30k/",
+      "card_month": "year. Expert",
+      "card_location": "Baki, Yasamal",
+      "card_info": ["Developer", "Coder", "Design"]
+    },
+    {
       "id": 3,
       "images": "",
-      "card_name": "Developer & Expert in java c++",
+      "card_name": "Kontakt Home (Satis meslehetcisi)",
       "card_time": "Full time",
-      "card_salary": "$22k-$30k",
+      "card_salary": "$22k-$30k/",
       "card_month": "year. Expert",
       "card_location": "Spain, Barcelona",
-      "card_info": [
-        {
-          "id": 1,
-          "info_one": "Developer",
-          "info_two": "Coder",
-          "info_third": "Design"
-        }
-      ]
+      "card_info": ["Developer", "Coder", "Design"]
     },
     {
       "id": 4,
       "images": "",
-      "card_name": "Developer & Expert in java c++",
+      "card_name": "PhP Developer",
       "card_time": "Full time",
-      "card_salary": "$22k-$30k",
+      "card_salary": "$22k-$30k/",
       "card_month": "year. Expert",
-      "card_location": "Spain, Barcelona",
-      "card_info": [
-        {
-          "id": 1,
-          "info_one": "Developer",
-          "info_two": "Coder",
-          "info_third": "Design"
-        }
-      ]
+      "card_location": "Gence, Abbas Sehet",
+      "card_info": ["Developer", "Coder", "Design"]
     },
     {
       "id": 5,
       "images": "",
       "card_name": "Developer & Expert in java c++",
       "card_time": "Full time",
-      "card_salary": "$22k-$30k",
+      "card_salary": "$22k-$30k/",
       "card_month": "year. Expert",
       "card_location": "Spain, Barcelona",
-      "card_info": [
-        {
-          "id": 1,
-          "info_one": "Developer",
-          "info_two": "Coder",
-          "info_third": "Design"
-        }
-      ]
+      "card_info": ["Developer", "Coder", "Design"]
     },
     {
       "id": 6,
       "images": "",
       "card_name": "Developer & Expert in java c++",
       "card_time": "Full time",
-      "card_salary": "$22k-$30k",
+      "card_salary": "$22k-$30k/",
       "card_month": "year. Expert",
       "card_location": "Spain, Barcelona",
-      "card_info": [
-        {
-          "id": 1,
-          "info_one": "Developer",
-          "info_two": "Coder",
-          "info_third": "Design"
-        }
-      ]
+      "card_info": ["Developer", "Coder", "Design"]
+    }
+  ],
+
+  "work_category": [
+    {
+      "id": 1,
+      "name": "Maliyye",
+      "count": 120
+    },
+    {
+      "id": 2,
+      "name": "Texnologiya",
+      "count": 120
+    },
+    {
+      "id": 3,
+      "name": "Restoran işləri",
+      "count": 98
+    },
+    {
+      "id": 4,
+      "name": "Satış",
+      "count": 73
+    },
+    {
+      "id": 5,
+      "name": "Texnologiya",
+      "count": 12
+    },
+    {
+      "id": 6,
+      "name": "Maliyye",
+      "count": 120
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Kapital Bank",
+      "count": 20
+    },
+    {
+      "id": 2,
+      "name": "Paşa bank",
+      "count": 14
+    },
+    {
+      "id": 3,
+      "name": "Kontakt Home",
+      "count": 54
+    },
+    {
+      "id": 4,
+      "name": "Boranı",
+      "count": 11
+    },
+    {
+      "id": 5,
+      "name": "Azersu",
+      "count": 20
+    },
+    {
+      "id": 6,
+      "name": "Azintelecom",
+      "count": 76
     }
   ]
 }
